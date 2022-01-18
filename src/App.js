@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
-import Header from './component/Header';
-import ViewBox from './component/ViewBox';
+import Header from './common/Header/Header';
+import ViewBox from './page/Main/ViewBox';
+import About from './page/About/About';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header heading={title}/>
       <ViewBox />
+      <About />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
-import '../style/Header.scss';
+import '../../style/Header.scss';
 import { Link } from 'react-router-dom';
 
 export default function Header(props) {

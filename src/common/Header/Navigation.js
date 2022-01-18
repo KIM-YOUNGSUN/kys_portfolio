@@ -2,8 +2,8 @@ import {NavLink} from 'react-router-dom';
 
 export default function Navigation() {
   const navList = [
-    {content: "Home", href:"home"},
     {content: "About", href:"about"},
+    {content: "Skills", href:"skills"},
     {content: "Project", href:"project"},
     {content: "Contact", href:"contact"}
   ];

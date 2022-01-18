@@ -1,0 +1,42 @@
+// AboutBox.scss
+
+#aboutBox {
+  width: 100%; min-width: 320px; max-width: 1920px; height: auto; // h auto로 변경
+  margin-top: 50px;
+  background-color: #ddd; // 화이트로 변경
+
+  > h2 {width: 100%; max-width: 500px; height: 40px; margin: auto; background-color: #cdc;}
+}
+
+.about_area {
+  display: flex; justify-content: flex-start;
+  width: 100%; max-width: 1200px;  height: 100%; 
+  margin: auto; padding: 20px;
+  background-color: #dde;
+
+  & .img_part {
+    width: 400px; height: 500px; 
+    margin: auto;
+    background-color: #ada;
+  }
+
+  & .text_part {
+    width: 700px; height: 500px; 
+    margin:auto;
+    background-color: #dff;
+
+    @at-root dl {
+      width: 100%; height: 100%; 
+      padding-top: 50px;
+      background-color: #eee;
+      & dt {
+        width: 100%; height: 50px; 
+        margin: auto; 
+        background-color: #fff;}
+      & dd {
+        width: 100%; height: 200px; 
+        margin: 30px auto;
+        background-color: #aaa;}
+    }
+  }
+}
