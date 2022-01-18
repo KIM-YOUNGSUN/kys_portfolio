@@ -23,18 +23,18 @@
   & .text_part {
     width: 700px; height: 500px; 
     margin:auto;
-    background-color: #dff;
+    // background-color: #dff;
 
-    @at-root dl {
-      width: 100%; height: 100%; 
-      padding-top: 50px;
+    @at-root & > dl {
+      width: 100%; height: auto; 
+      margin-top: 80px;
       background-color: #eee;
-      & dt {
+      & > dt {
         width: 100%; height: 50px; 
         margin: auto; 
         background-color: #fff;}
-      & dd {
-        width: 100%; height: 200px; 
+      & > dd {
+        width: 100%; height: 300px; 
         margin: 30px auto;
         background-color: #aaa;}
     }

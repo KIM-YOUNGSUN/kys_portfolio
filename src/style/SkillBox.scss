@@ -1,0 +1,62 @@
+// SkillBox.scss
+
+#skillBox {
+  width: 100%; height: auto;
+  background-color: #cdc;
+
+  > h2 {width: 100%; max-width: 500px; height: 40px; 
+    margin: auto;
+    background-color: #fff;}
+}
+
+.skill_area_01 {
+  display: flex; justify-content: space-around;
+  width: 100%; height: auto;
+  padding: 70px;
+  text-transform: uppercase;
+  // background-color: #faf;
+}
+h3 {
+  width: 130px; height: 30px; 
+  margin: 20px auto; 
+  line-height: 28px; font-size: 20px; text-decoration: none;
+  background-color: #ddd;}
+p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;} 
+
+.html_part {
+  width: 270px; height: 270px;
+  & .html_icon {width: 100px; height: 100px; color: red;}
+}
+
+.css_part {
+  width: 270px; height: 270px;
+  & .css_icon {width: 100px; height: 100px; color: blue;} 
+}
+
+.scss_part {
+  width: 270px; height: 270px;
+  & .scss_icon {width: 100px; height: 100px; color: hotpink;} 
+}
+
+.skill_area_02 {
+  display: flex; justify-content: space-around;
+  width: 100%; height: auto;
+  padding: 70px;
+  text-transform: uppercase;
+  // background-color: #faf;
+}
+
+.js_part {
+  width: 270px; height: 270px; 
+  & .js_icon {width: 100px; height: 100px; color: orange;} 
+}
+
+.react_part {
+  width: 270px; height: 270px; 
+  & .react_icon {width: 100px; height: 100px; color: rgb(149, 208, 228);} 
+}
+
+.git_part {
+  width: 270px; height: 270px;
+  & .git_icon {width: 100px; height: 100px; color: black;} 
+}
