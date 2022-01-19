@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import Header from './common/Header/Header';
 import Main from './page/Main/Main';
 import About from './page/About/About';
