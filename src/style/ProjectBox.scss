@@ -5,17 +5,29 @@
   > h2 {width: 100%; max-width:500px; height:40px; margin: auto; background-color: #fff;}
 }
 
-.project_area {width: 100%; height: 100%; background-color: #ee3;
+.project_area {width: 100%; height: 1000px; background-color: #ee3;} 
+
+.hermes_part {width: 500px; height: 900px; background-color: #cdc;
   & ul {
-    display: flex; justify-content: space-around; flex-wrap: wrap;
-    width: 100%; height: 100%; padding: 70px; background-color: #ccc;
-    & li {width: 500px; height: 600px; margin-bottom: 20px; background-color: #cdd;
-       & a {display: block; width:100px; height:30px; background-color:#fff;}
+    // display: flex; justify-content: space-around; flex-wrap: wrap;
+    width: 100%; height: 100%; background-color: #ccc;
+    & li {width: 500px; height: 400px; margin-bottom: 20px; background-color: #cdd;
+          
+    @at-root .hermes_img {width: 500px; height: 400px;
+      background-image: url(../img/herems.png);
+      background-repeat: no-repeat;
+      background-position: 0 0; 
+      background-size: contain;
+
+      
+      }
     }
 
-    @at-root & dl {width: 400px; height: 200px; padding: 14px; background-color: #fff;
-        & dt {width: 120px; height: 50px; background-color: #fff;}
-        & dd {width: 250px; height: 100px; background-color: #ada;}
+    @at-root & dl {width: 400px; height: 200px; margin: auto; padding: 14px; background-color: #fff;
+        & dt {width: 120px; height: 50px; margin: auto; background-color: #eee;}
+        & dd {width: 250px; height: 100px; margin: auto; background-color: #ada;
+          & a {display: block; width:100%; height:100%; background-color: #eee;}
+        }
       }
   }
-} 
+}
