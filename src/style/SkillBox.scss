@@ -10,7 +10,7 @@
 }
 
 .skill_area_01 {
-  display: flex; justify-content: space-around;
+  display: flex; justify-content: space-around; flex-wrap: wrap;
   width: 100%; height: auto;
   padding: 70px;
   text-transform: uppercase;
@@ -39,7 +39,7 @@ p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;}
 }
 
 .skill_area_02 {
-  display: flex; justify-content: space-around;
+  display: flex; justify-content: space-around; flex-wrap: wrap;
   width: 100%; height: auto;
   padding: 70px;
   text-transform: uppercase;
