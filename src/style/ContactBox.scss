@@ -1,3 +1,9 @@
 // ContactBox.scss
 
-#contactBox {width: 100%; height: 600px; background-color: #ffd;}
+#contactBox {width: 100%; height: 400px; background-color: #fff;
+  > h2 {width: 100%; max-width:500px; height:40px; margin: auto; background-color: #fff;}
+}
+
+.contact_area {width: 400px; height: 300px; margin: 60px auto;
+  p {width: 300px; height: 50px; margin: 40px auto; background-color: #ddd;}
+} 

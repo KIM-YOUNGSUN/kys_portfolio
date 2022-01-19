@@ -16,25 +16,28 @@ export default function ProjectBox() {
             </li>
             <dl>
               <dt>hermes</dt>
-              <dd>
-                <a href="https://hermes-project.vercel.app" target="blank">hermes</a>
-
-              </dd>
+              <dd>프로젝트 설명</dd>
             </dl>
+            <div className="hermes_url">
+                <a href="https://hermes-project.vercel.app" target="blank">hermes</a>
+            </div>
           </ul>
         </div>
 
         <div className='portfolio_part'>
           <ul>
             <li>
-              <a href="https://kys-portfolio.vercel.app" target="blank">
-                <span className='blind'>portfolio</span>
-              </a>
+              <div className='portfolio_img'> 
+              </div>
             </li>
             <dl>
               <dt>portfolio</dt>
               <dd>프로젝트 설명</dd>
             </dl>
+
+            <div className="portfolio_url">
+                <a href="https://hermes-project.vercel.app" target="blank">hermes</a>
+            </div>
           </ul>
         </div>
       </div>

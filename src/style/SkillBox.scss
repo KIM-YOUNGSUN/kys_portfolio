@@ -2,7 +2,7 @@
 
 #skillBox {
   width: 100%; height: auto;
-  background-color: #cdc;
+  background-color: rgb(255,255,224,0.6);
 
   > h2 {width: 100%; max-width: 500px; height: 40px; 
     margin: auto;
@@ -15,13 +15,15 @@
   padding: 70px;
   text-transform: uppercase;
   // background-color: #faf;
+
+  h3 {
+    width: 130px; height: 30px; 
+    margin: 20px auto; 
+    line-height: 28px; font-size: 20px; text-decoration: none;
+    background-color: #ddd;}
+  p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;} 
 }
-h3 {
-  width: 130px; height: 30px; 
-  margin: 20px auto; 
-  line-height: 28px; font-size: 20px; text-decoration: none;
-  background-color: #ddd;}
-p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;} 
+
 
 .html_part {
   width: 270px; height: 270px;
@@ -43,6 +45,13 @@ p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;}
   width: 100%; height: auto;
   padding: 70px;
   text-transform: uppercase;
+
+  h3 {
+    width: 130px; height: 30px; 
+    margin: 20px auto; 
+    line-height: 28px; font-size: 20px; text-decoration: none;
+    background-color: #ddd;}
+  p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;} 
   // background-color: #faf;
 }
 
