@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 export default function Contact() {
   return (
-    <div className='contact_wrap' id="contact">
+    <div id="contact">
       <ContactBox />
     </div>
   )

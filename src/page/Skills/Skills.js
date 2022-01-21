@@ -3,7 +3,7 @@ import SkillBox from './SkillBox';
 
 export default function Skills() {
   return (
-    <div className='skill_wrap' id="skills">
+    <div id="skills">
       <SkillBox />
     </div>
   )

@@ -1,8 +1,8 @@
 // AboutBox.scss
 
 #aboutBox {
-  width: 100%; min-width: 320px; max-width: 1920px; height: auto; // h auto로 변경
-  background-color: 	rgb(255,255,224,0.6); // 화이트로 변경
+  width: 100%; height: auto; 
+  background-color: rgb(255,255,224,0.6); 
 
   > h2 {width: 100%; max-width: 500px; height: 40px; margin: auto; background-color: #cdc;}
 }
