@@ -1,4 +1,5 @@
 import '../../style/ContactBox.scss';
+import { Link } from 'react-scroll';
 
 export default function ContactBox() {
   return (

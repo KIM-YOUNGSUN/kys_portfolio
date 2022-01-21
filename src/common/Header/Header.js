@@ -1,12 +1,13 @@
 import React from 'react';
 import Navigation from './Navigation';
 import '../../style/Header.scss';
-import { Link } from 'react-router-dom';
+import { Link, scroll } from 'react-scroll';
+
 
 export default function Header(props) {
   return (
     <header id="headBox">
-        <h1><Link to="/">{props.heading}</Link></h1>
+        <h1>portfolio</h1>
         <Navigation />
     </header>
   )
