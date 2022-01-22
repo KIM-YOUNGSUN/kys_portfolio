@@ -2,11 +2,12 @@
 
 #skillBox {
   width: 100%; height: auto;
-  background-color: rgb(255,255,224,0.6);
+  padding: 40px;
+  background-color: rgb(255,218,185,0.3);
 
   > h2 {width: 100%; max-width: 500px; height: 40px; 
     margin: auto;
-    background-color: #fff;}
+    text-transform: uppercase; font-size: 24px; color: gray;}
 }
 
 .skill_area_01 {
@@ -14,14 +15,12 @@
   width: 100%; height: auto;
   padding: 70px;
   text-transform: uppercase;
-  // background-color: #faf;
 
   h3 {
     width: 130px; height: 30px; 
     margin: 20px auto; 
-    line-height: 28px; font-size: 20px; text-decoration: none;
-    background-color: #ddd;}
-  p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;} 
+    line-height: 28px; font-size: 20px; text-decoration: none;}
+  p {width: 250px; height: 70px; margin: 20px auto; background-color: white; } 
 }
 
 
@@ -49,9 +48,8 @@
   h3 {
     width: 130px; height: 30px; 
     margin: 20px auto; 
-    line-height: 28px; font-size: 20px; text-decoration: none;
-    background-color: #ddd;}
-  p {width: 250px; height: 70px; margin: 20px auto; background-color: #ded;} 
+    line-height: 28px; font-size: 20px; text-decoration: none;}
+  p {width: 250px; height: 70px; margin: 20px auto; background-color: white;} 
   // background-color: #faf;
 }
 

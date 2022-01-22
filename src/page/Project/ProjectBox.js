@@ -36,7 +36,7 @@ export default function ProjectBox() {
             </dl>
 
             <div className="portfolio_url">
-                <a href="https://hermes-project.vercel.app" target="blank">hermes</a>
+                <a href="https://kys-portfolio.vercel.app" target="blank">hermes</a>
             </div>
           </ul>
         </div>

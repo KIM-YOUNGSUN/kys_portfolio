@@ -8,7 +8,7 @@ export default function AboutBox() {
         <div className="img_part"></div>
         <div className="text_part">
           <dl>
-            <dt>자기소개 제목</dt>
+            <dt>성장과 소통을 중시하는 김영선입니다.</dt>
             <dd>자기소개 내용</dd>
           </dl>
         </div>

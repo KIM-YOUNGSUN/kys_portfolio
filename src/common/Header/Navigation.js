@@ -1,4 +1,4 @@
-import {NavLink} from 'react-router-dom';
+
 import {Link} from 'react-scroll'
 
 export default function Navigation() {
@@ -7,7 +7,7 @@ export default function Navigation() {
     <nav id="navBox">
       <h2 className='blind'>navigation</h2>
       <div className='navbar'>
-
+        
         <Link 
           activeClass="active"
           to="about"
