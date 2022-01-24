@@ -1,15 +1,17 @@
 // ContactBox.scss
 
 #contactBox {
-  width: 100%; height: 400px; 
+  width: 100%; height: 270px; 
   padding: 30px;
+  font-family: 'OTWelcomeRA';
   
   > h2 {width: 100%; max-width:500px; height:40px; 
     margin: auto; 
-    text-transform: uppercase; font-family: 'yg-jalnan'; 
+    text-transform: uppercase;
     font-size: 24px; color: black;}
 }
 
-.contact_area {width: 100%; height: 300px; margin: 60px auto;
-  p {width: 300px; height: 50px; margin: 40px auto; background-color: #ddd;}
+.contact_area {width: 100%; height: 270px; margin: 30px auto;
+  p {width: 100%; height: 50px; margin: 10px auto; }
+  a {display: block; width: 100%; height: 50px; margin: 10px auto; }
 } 

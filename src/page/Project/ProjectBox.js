@@ -12,6 +12,7 @@ export default function ProjectBox() {
           <ul>
             <li>
               <div className='hermes_img'>
+                <p>자세히보기</p>
               </div>
             </li>
             <dl>

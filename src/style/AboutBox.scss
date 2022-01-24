@@ -8,8 +8,8 @@
 
   > h2 {width: 100%; max-width: 500px; height: 40px; 
         margin: auto; 
-        text-transform: uppercase; font-family: 'yg-jalnan';
-        font-size: 24px; font-weight: normal; 
+        text-transform: uppercase; 
+        font-size: 24px; font-family: 'OTWelcomeRA';
         color: black;
       }
 }
@@ -28,7 +28,7 @@
   & .text_part {
     width: 700px; height: 500px; 
     margin:auto;
-    // background-color: #dff;
+    font-family: 'OTWelcomeRA';
 
     @at-root & > dl {
       width: 100%; height: auto; 
