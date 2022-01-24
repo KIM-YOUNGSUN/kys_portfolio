@@ -4,10 +4,12 @@
   width: 100%; height: auto;
   padding: 40px;
   background-color: rgb(255,218,185,0.3);
+  font-family: "BMJUA"; 
 
   > h2 {width: 100%; max-width: 500px; height: 40px; 
     margin: auto;
-    text-transform: uppercase; font-size: 24px; color: gray;}
+    text-transform: uppercase; font-family: 'yg-jalnan';
+    font-size: 24px; color: black;}
 }
 
 .skill_area_01 {
