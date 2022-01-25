@@ -1,20 +1,20 @@
 // FootBox.scss
 
-#footBox {width: 100%; height: 200px; background-color: #FFDAB9; font-family: 'OTWelcomeRA';}
+#footBox {width: 100%; height: auto; background-color: #FFDAB9; font-family: 'OTWelcomeRA';}
 
 
 .foot_area {
-  width: 100%; height: 100%; padding: 4px;
+  width: 100%; height: 100%; padding: 8px;
   & p {
-    width: 200px; height: 50px;
-    margin: 20px auto;
-    background-color: white;}
-  & .btn {
-    width: 30px; height: 30px;
-    margin: auto;
-    background-image: url(../img/top.png);
-    background-repeat: no-repeat;
-    background-position: 0 0; 
-    background-size: cover;
+    display: flex; justify-content: space-around;
+    width: 300px; height: 40px;
+    margin: 8px auto;
+    text-transform: uppercase; font-size: 20px; 
+    & .smile_icon {width: 25px; height: 25px; margin-top: -8px; color: orangered;}
+    &:last-child {width: 170px; font-size: 15px;}
   }
+  & .btn {
+    width: 45px; height: 45px; cursor: pointer;
+  } 
+  
 }

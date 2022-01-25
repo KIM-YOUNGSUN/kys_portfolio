@@ -5,9 +5,9 @@ import '../../style/Header.scss';
 
 export default function Header() {
   return (
-    <header id="headBox">
+    <div id="headBox">
         <h1>portfolio</h1>
         <Navigation />
-    </header>
+    </div>
   )
 }

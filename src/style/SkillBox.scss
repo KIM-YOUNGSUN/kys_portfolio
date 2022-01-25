@@ -15,57 +15,70 @@
 .skill_area_01 {
   display: flex; justify-content: space-around; flex-wrap: wrap;
   width: 100%; height: auto;
-  padding: 70px;
+  padding: 60px;
   text-transform: uppercase;
 
   h3 {
     width: 130px; height: 30px; 
     margin: 20px auto; 
     line-height: 28px; font-size: 20px; text-decoration: none;}
-  p {width: 250px; height: 70px; margin: 20px auto; background-color: white; } 
+  ul {
+    display: flex; justify-content: space-around;
+    width: 100px; height: 20px; margin: auto;  
+    li {width: 10px; height: 10px; border-radius: 50px; background-color: #333;
+      &:last-child {background-color: #fff; border: 1px solid #333;}
+    }
+  } 
 }
 
 
 .html_part {
-  width: 270px; height: 270px;
+  width: 250px; height: 250px;
   & .html_icon {width: 100px; height: 100px; color: red;}
 }
 
 .css_part {
-  width: 270px; height: 270px;
+  width: 250px; height: 250px;
   & .css_icon {width: 100px; height: 100px; color: blue;} 
 }
 
 .scss_part {
-  width: 270px; height: 270px;
+  width: 250px; height: 250px;
   & .scss_icon {width: 100px; height: 100px; color: hotpink;} 
 }
 
 .skill_area_02 {
   display: flex; justify-content: space-around; flex-wrap: wrap;
   width: 100%; height: auto;
-  padding: 70px;
+  padding: 60px; padding-top: 0;
   text-transform: uppercase;
 
   h3 {
     width: 130px; height: 30px; 
     margin: 20px auto; 
     line-height: 28px; font-size: 20px; text-decoration: none;}
-  p {width: 250px; height: 70px; margin: 20px auto; background-color: white;} 
-  // background-color: #faf;
+    ul {
+      display: flex; justify-content: space-around;
+      width: 100px; height: 20px; margin: auto;  
+      li {width: 10px; height: 10px; border-radius: 50px; background-color: #333;
+        &:nth-child(4) {background-color: #fff; border: 1px solid #333;}
+        &:nth-child(5) {background-color: #fff; border: 1px solid #333;}
+        
+      }
+    }
 }
 
 .js_part {
-  width: 270px; height: 270px; 
+  width: 250px; height: 250px; 
   & .js_icon {width: 100px; height: 100px; color: orange;} 
 }
 
 .react_part {
-  width: 270px; height: 270px; 
+  width: 250px; height: 250px; 
   & .react_icon {width: 100px; height: 100px; color: rgb(149, 208, 228);} 
 }
 
 .git_part {
-  width: 270px; height: 270px;
+  width: 250px; height: 250px;
   & .git_icon {width: 100px; height: 100px; color: black;} 
 }
