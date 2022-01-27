@@ -16,7 +16,7 @@
 
 .about_area {
   display: flex; justify-content: flex-start; flex-wrap: wrap;
-  width: 100%; max-width: 1200px;  height: 100%; 
+  width: 100%;  height: 100%; 
   margin: auto; padding: 20px;
 
   & .img_part {
@@ -30,21 +30,22 @@
   }
 
   & .text_part {
-    width: 700px; height: 500px; 
-    margin:auto;
+    width: 750px; height: 500px; 
+    margin: auto;
+    text-align: center;
     font-family: 'OTWelcomeRA';
 
     @at-root & > dl {
       width: 100%; height: auto; 
-      margin-top: 80px;
+      margin-top: 100px;
 
       & > dt {
-        width: 100%; height: 50px; 
+        width: 100%; height: 30px; 
         margin: auto; }
       & > dd {
-        width: 100%; height: 300px; 
+        width: 100%; height: auto; 
         margin: 30px auto;
-        background-color: white;}
+        text-align: left; line-height: 20px;}
     }
   }
 }
