@@ -1,7 +1,7 @@
 // AboutBox.scss
 
 #aboutBox {
-  width: 100%; height: auto; 
+  width: 100%; height: auto; min-height: 800px;
   padding: 40px;
   background-color: rgb(255,218,185,0.3); 
   
@@ -30,7 +30,7 @@
   }
 
   & .text_part {
-    width: 600px; height: 500px; 
+    width: 500px; height: 600px; 
     margin: auto;
     text-align: center;
     font-family: 'OTWelcomeRA';
@@ -45,7 +45,7 @@
       & > dd {
         width: 100%; height: auto; 
         margin: 20px auto;  
-        text-align: left; line-height: 20px; font-size: 16px;
+        text-align: left; line-height: 25px; font-size: 17px;
       }
     }
   }

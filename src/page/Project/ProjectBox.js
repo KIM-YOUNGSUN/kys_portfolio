@@ -22,7 +22,7 @@ export default function ProjectBox() {
               </dd>
             </dl>
             <div className="hermes_url">
-                <a href="https://hermes-project.vercel.app" target="blank">자세히보기</a>
+                <a href="https://kim-youngsun.github.io/hermes_project/" target="blank">자세히보기</a>
             </div>
           </ul>
         </div>
@@ -41,7 +41,7 @@ export default function ProjectBox() {
             </dl>
 
             <div className="portfolio_url">
-                <a href="https://kys-portfolio.vercel.app" target="blank">자세히보기</a>
+                <a href="https://kim-youngsun.github.io/kys_portfolio/" target="blank">자세히보기</a>
             </div>
           </ul>
         </div>
