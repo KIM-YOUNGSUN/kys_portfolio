@@ -60,34 +60,24 @@
     ul {
       display: flex; justify-content: space-around;
       width: 100px; height: 20px; margin: auto;
+      li {width: 10px; height: 10px; border-radius: 50px; background-color: #333;
+        &:nth-child(4) {background-color: #fff; border: 1px solid #333;}
+        &:nth-child(5) {background-color: #fff; border: 1px solid #333;}
+      }
     }
 }
 
 .js_part {
   width: 250px; height: 250px; 
   & .js_icon {width: 100px; height: 100px; color: orange;} 
-  & li {width: 10px; height: 10px; border-radius: 50px; background-color: #333;
-    &:nth-child(3) {background-color: #fff; border: 1px solid #333;}
-    &:nth-child(4) {background-color: #fff; border: 1px solid #333;}
-    &:nth-child(5) {background-color: #fff; border: 1px solid #333;}
-  }
 }
 
 .react_part {
   width: 250px; height: 250px; 
   & .react_icon {width: 100px; height: 100px; color: rgb(149, 208, 228);} 
-  & li {width: 10px; height: 10px; border-radius: 50px; background-color: #333;
-    &:nth-child(3) {background-color: #fff; border: 1px solid #333;}
-    &:nth-child(4) {background-color: #fff; border: 1px solid #333;}
-    &:nth-child(5) {background-color: #fff; border: 1px solid #333;}
-  }
 }
 
 .git_part {
   width: 250px; height: 250px;
   & .git_icon {width: 100px; height: 100px; color: black;} 
-  & li {width: 10px; height: 10px; border-radius: 50px; background-color: #333;
-    &:nth-child(4) {background-color: #fff; border: 1px solid #333;}
-    &:nth-child(5) {background-color: #fff; border: 1px solid #333;}
-  }
 }
